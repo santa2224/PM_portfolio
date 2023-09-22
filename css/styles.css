@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
-  --bs-link-hover-color: #974a2d;
+  --bs-link-color: royalblue;
+  --bs-link-hover-color: rgb(39, 75, 182);
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -251,6 +251,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
+  
   color: var(--bs-link-hover-color);
 }
 
@@ -3730,7 +3731,7 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(0, 0, 0, 0.55);
+  --bs-navbar-color: rgba(0, 0, 0, 0.32);
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
@@ -8037,7 +8038,9 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  /* 폰트색 변경 */
+  /* color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; */
+  color: royalblue;
 }
 
 .text-secondary {
@@ -8128,7 +8131,9 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  /* 왼쪽 배경색 변경 */
+  /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
+  background-color: royalblue;
 }
 
 .bg-secondary {
@@ -10936,8 +10941,10 @@ p.lead {
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
+/* 아이콘 hover 속성 */
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: royalblue;
+  /* background-color: #bd5d38; */
 }
 
 .dev-icons {
@@ -10979,3 +10986,4 @@ section.resume-section .resume-section-content {
 .myfont{
   font-family: 'Pretendard-Regular';
 }
+/* 추가 */
